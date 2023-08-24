@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="TC_repos.TC_1">
+        <methods>
+          <include name="dbConnectionclose"/>
+          <include name="CreateDbConnectin"/>
+          <include name="launchBrowser"/>
+          <include name="classwindow"/>
+          <include name="logOut"/>
+          <include name="ExecuteTastModule"/>
+          <include name="loginApp"/>
+        </methods>
+      </class> <!-- TC_repos.TC_1 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
